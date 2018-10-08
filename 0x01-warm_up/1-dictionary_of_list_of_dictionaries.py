@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-#dictionary of dictionaries and API calls
+# dictionary of dictionaries and API calls
 import json
 import requests
+
 if __name__ == "__main__":
     f = open("todo_all_employees.json", "w")
     send = {}
